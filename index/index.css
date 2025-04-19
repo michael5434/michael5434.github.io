@@ -4,16 +4,18 @@
     flex-direction: column;
     align-items: center;
 }
-
 .row{
     width: 480px;
-    height: 30px;
-    border: 1px red solid;
+    border: 1px #283618 solid;
     display: flex;
     flex-direction: row;
 }
 .square{
-    height: 30px;
-    width: 30px;
-    border: 1px solid red;
+    border: 1px solid #283618;
 }
+
+.square:hover{
+    background-color: #606C38;
+    cursor: pointer;
+}
+
